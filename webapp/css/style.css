@@ -1,0 +1,58 @@
+.header{
+    font-family: fantasy;
+    font-size: 15px;
+    color: darkslateblue;
+    text-align: left;
+}
+
+.shoot_form{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#shoot_form{
+    display: inline-block;
+    font-size: 15px;
+    font-family: fantasy;
+
+}
+
+input[type="text"], select{
+    width: 60px;
+}
+
+#shoot_form td{
+    padding: 10px;
+}
+
+
+h1::first-line{
+    margin: auto;
+
+}
+
+.choose{
+    padding-left: 10px;
+}
+
+#image{
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+p{
+    text-align: center;
+}
+#last_hit_result{
+    font-family: fantasy;
+    font-size: large;
+}
+#last_hit_result[class="hit"]{
+    color: green;
+}
+#last_hit_result[class="miss"]{
+    color:red;
+}
+canvas { border: 1px solid black; }
