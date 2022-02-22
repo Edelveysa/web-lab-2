@@ -45,7 +45,7 @@ function shoot_request(x, y, r){
     request.onload = function () {
         let text = request.responseText
         add_table_row(text)
-        render_canvas(get_r())
+        render_canvas(r)
     }
     request.send()
 }

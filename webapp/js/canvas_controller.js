@@ -114,8 +114,7 @@ function render_hits(r) {
 
             let r_ = hit[2]
             if (r_ <= 0) return
-            let r = get_r()
-            let scale = r/r_
+            let scale = 1
             let x = hit[0] * scale * stepX + width / 2
             let y = -hit[1] * scale * stepY + height / 2
             let isHit = hit[3]

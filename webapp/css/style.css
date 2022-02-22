@@ -1,8 +1,12 @@
 .header{
-    font-family: fantasy;
-    font-size: 15px;
-    color: darkslateblue;
+    font-family: monospace;
+    font-size: 13px;
+    color: navy;
     text-align: left;
+}
+
+body{
+    background: azure;
 }
 
 .shoot_form{

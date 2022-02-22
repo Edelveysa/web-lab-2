@@ -12,7 +12,7 @@
 
 }
 #hits_table tr[class="content"]:hover{
-    background-color: cyan;
+    background-color: cadetblue;
 }
 td{
     text-align: center;
